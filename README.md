@@ -121,12 +121,23 @@ For custom datasets, you would need to create a config file similar to the exist
     CUDA_VISIBLE_DEVICES="0,1,2,3,4,5,6,7" python eval.py -d="0,1,2,3,4,5,6,7" -n "dataset_name" -e="epoch_number" -p="visualize_savedir"
     ```
 
+    ```shell
+    such as:CUDA_VISIBLE_DEVICES="0,1" python eval.py -d="0,1" -n "cdd" -e="145" -p="./mcd_res/cdd/145epc"
+    ```
+
 3. Results will be saved in `log_final` folder.
 
+Please run the `infer.py` file to obtain the experimental results:
 
-
-## Citation
-
+```shell
+gt_path = 'labelPath'
+pre_path = 'evalPath'
+such as:
+gt_path = '/home/cver2080/4TDISK/jyn/Datasets/CDD/label'
+pre_path = '/home/cver2080/4TDISK/jyn/Projects/FEMamba/mcd_res/cdd/145epc_color'
 ```
-To be added
-```
+
+
+
+
+
