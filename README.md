@@ -134,7 +134,7 @@ gt_path = 'labelPath'
 pre_path = 'evalPath'
 such as:
 gt_path = '/home/cver2080/4TDISK/jyn/Datasets/CDD/label'
-pre_path = '/home/cver2080/4TDISK/jyn/Projects/FEMamba/mcd_res/cdd/145epc_color'
+pre_path = '/home/cver2080/4TDISK/jyn/Projects/FEMamba/res/cdd/145epc_color'
 ```
 
 
