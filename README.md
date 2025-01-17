@@ -1,4 +1,4 @@
-# FEMamba
+# FEMCD
 
 
 
@@ -7,8 +7,8 @@
 Create a new conda environment with the config file given in the repository as follows:
 
 ```
-conda env create --file=femamba.yml
-conda activate femamba
+conda env create --file=femcd.yml
+conda activate femcd
 ```
 
 Install Mamba as follows:
