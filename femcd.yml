@@ -1,4 +1,4 @@
-name: FEMamba
+name: FEMCD
 channels:
   - pytorch
   - nvidia
